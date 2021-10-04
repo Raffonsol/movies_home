@@ -1,0 +1,18 @@
+
+.image-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.image-item {
+    flex-grow: 4; /* default 0 */
+    object-fit: fill;
+}
+.container {
+    margin-top: 3rem;
+}
+img {
+    object-fit: fill;
+    display: flex;
+    width: 100%;
+}

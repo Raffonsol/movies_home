@@ -1,0 +1,31 @@
+
+.app_bar_content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #222222;
+}
+.left_section {
+    margin-left: 5%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #222222;
+}
+.title {
+    align-self: start;
+    h3 {
+        width: 120px;
+    }
+}
+.back_arrow {
+    align-self: center;
+    align-content: center;
+    display: flex;
+}
+.settings_button {
+    align-self: center;
+    margin-right: 3%;
+}

@@ -1,0 +1,12 @@
+$softerTheme: #9e8f8f;
+
+.box {
+  margin-top: 0.4em;
+  padding: 1.2em;
+  background-color: #f9f9f9;
+  color: $softerTheme;
+  display: flex;
+  svg {
+    margin-right: 0.4em;
+  }
+}
